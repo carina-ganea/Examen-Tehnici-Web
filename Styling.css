@@ -1,0 +1,149 @@
+﻿body {
+    background-color: #041d4b;
+    color: #eddae5;
+    font-family: 'American Typewriter', serif;
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+    min-height: 100%;
+}
+
+.hotbar {
+    background-color: #a16fa4;
+    width: 98%;
+    font-size: 0px;
+    padding: 1%;
+    text-align: right;
+    margin: 0px 0px 0px 0px;
+}
+
+a {
+    background-color: #a16fa4;
+    color: #eddae5;
+    text-decoration: none;
+    font-size: 20px;
+    width: 100px;
+    height: 100%;
+    padding: 1%;
+    margin: 0px 0px 0px 0px;
+}
+
+    a:hover {
+        background-color: #c099c2;
+        margin: 0px 0px 0px 0px;
+        padding: 1%;
+    }
+
+    a:active {
+        background-color: #663e68;
+        margin: 0px 0px 0px 0px;
+        padding: 1%;
+    }
+
+.current {
+    background-color: #e7b3ea;
+    color: #e84e9b;
+}
+
+.sign-up {
+    margin: 5% 20% 10% 20%;
+    background-color: #a16fa4;
+    height: 320px;
+    width: 60%;
+    text-align: center;
+    white-space: pre-wrap;
+}
+
+.notebook {
+    margin: 5% 10% 1% 10%;
+    width: 80%;
+    height: 350px;
+    font-size: 20px;
+    background-color: #e7b3ea;
+    scrollbar-base-color: #e7b3ea;
+}
+
+button {
+    border-radius: 8px;
+    height: 30px;
+    padding: 2px;
+    font-size: 20px;
+    width: 100px;
+    background-color: #e84e9b;
+    color: #eddae5;
+    border: 1px solid white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+    button:active {
+        background-color: #64324b;
+        color: #c2b1b9;
+        border-color: #c2b1b9;
+    }
+
+.message {
+    font-size: 18px; 
+    height: 24px; 
+    text-align: left; 
+    margin: 0px; 
+    background-color:#e7b3ea;
+    color: #e84e9b;
+    padding: 3px;
+}
+
+.name {
+    font-size: 20px;
+    background-color: #865b88;
+    text-align: left;
+    color:#eddae5;
+    text-decoration: none;
+    font-size: 20px;
+    width: 100px;
+    height: 100%;
+    padding: 1%;
+    margin: 0px 0px 0px 0px;
+}
+
+.name:hover {
+    background-color: #865b88;
+    margin: 0px 0px 0px 0px;
+    padding: 1%;
+}
+
+.name:active {
+    background-color: #865b88;
+    margin: 0px 0px 0px 0px;
+    padding: 1%;
+}
+
+.administer{
+    margin: 5% 10% 10% 10%;
+    background-color: #a16fa4;
+    height: 320px;
+    width: 80%;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+.excerpt{
+    background-color:#e7b3ea;
+    color: #e84e9b;
+    font-family: 'American Typewriter', Arial, Helvetica, serif; 
+    margin-left: 2%;
+    margin-top: 30px;
+    margin-right: 2%;
+    position: center;
+    padding: 5px;
+}
+
+.amairamas{
+    background-color: #865b88;
+    position: center;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 5%;
+    padding: 10px;
+    font-family: 'American Typewriter', Arial, Helvetica, serif;
+}

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="Styling.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="Scripting.js"></script>
+    <title></title>
+</head>
+<body onload="paginacurenta()" id="body">
+    <nav class="hotbar" id="hotbar">
+        <a class="name" id="name"></a> 
+        <a href="Administer.html" id="administer">Administer</a>
+        <a href="Articles.html">Articles</a>
+        <a href="Notebook.html" id="notebook">Notebook</a>
+        <a href="Sign-In.html">Sign in</a>
+        <a href="Log-In.html">Log in</a>
+        <a href="Log-In.html" id="logout" onclick="logout()">Log out</a>
+    </nav>
+    <p id="message" class="message"></p>
+    <div class="sign-up" style="font-size:0px">
+        <p id ="eroare" style="font-size:20px; color:white; margin-bottom: 1px;"></p>
+        <div style="font-size: 25px; padding:0px;">
+            Username: <input type="text" id="usrname" />
+
+            Password: <input type="password" id="passwrd" /></div>
+        <div style="font-size:18px; padding:0px">
+            Show password <input type="checkbox" onclick="showpasswrd()" />
+        </div>
+        <button onclick="getUser('Login')">Log in</button>
+    </div>
+    <div id="amr" class="amairamas"></div>
+</body>
+</html>

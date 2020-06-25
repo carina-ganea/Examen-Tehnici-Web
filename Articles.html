@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="Styling.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://requirejs.org/docs/release/2.3.6/minified/require.js"></script>
+    <script src="Scripting.js"></script>
+    <title></title>
+</head>
+<body onload="paginacurenta(), loadArticles()" id="body">
+    <nav class="hotbar" id="hotbar">
+        <a class="name" id="name"></a>
+        <a href="Administer.html" id="administer">Administer</a>
+        <a href="Articles.html">Articles</a>
+        <a href="Notebook.html" id="notebook">Notebook</a>
+        <a href="Sign-In.html" id="signin">Sign in</a>
+        <a href="Log-In.html" id="login">Log in</a>
+        <a href="Log-In.html" id="logout" onclick="logout()">Log out</a>
+    </nav>
+    <p id="message" class="message"></p>
+    <div style = "margin-top: 30px; text-align: center;">
+        <button id="show" onclick="loadArticles()" style="width:150px; margin:auto">Show Articles</button>
+        <button id="hide" onclick="hideArticles()" style="width:150px; margin:auto">Hide Articles</button>
+    </div>
+    <div id="excerpts" style="min-height: 200%; position: relative">
+    </div>
+    <div id="amr" class="amairamas"></div>
+</body>
+</html>
